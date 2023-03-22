@@ -1,5 +1,14 @@
 # MicrobiomeHub
 
+## miniconda
+https://github.com/luozhy88/MicrobiomeHub/blob/main/install/01_install_miniconda.sh
+
+## microbiome.net(mamba)
+https://github.com/luozhy88/MicrobiomeHub/blob/main/install/02_install_mamba.sh
+
+## R package
+https://github.com/luozhy88/MicrobiomeHub/blob/main/install/03_install_r_packages.r
+
 ## shiny-server 
 
 ### 重新定义R版本
@@ -20,3 +29,9 @@ sudo systemctl daemon-reload
 sudo systemctl start shiny-server  
 sudo systemctl restart shiny-server   
 sudo systemctl restart shiny-server.service   
+
+
+
+## Note
+log:/var/log/shiny-server/*.log  
+test shiny:https://github.com/luozhy88/MicrobiomeHub/blob/main/hello/server.R
